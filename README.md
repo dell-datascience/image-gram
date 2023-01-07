@@ -1,5 +1,5 @@
 
- ![link to the endpoint URL for a running elastic beanstalk deployment][running elastic beanstalk]
+[link to the endpoint URL for a running elastic beanstalk deployment][running elastic beanstalk]
  http://imagefilter-env.eba-bwp59ym7.us-east-1.elasticbeanstalk.com/)
 
 
