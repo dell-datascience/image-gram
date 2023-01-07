@@ -1,6 +1,6 @@
 
- # _link to the endpoint URL for a running elastic beanstalk deployment:_
- http://imagefilter-env.eba-bwp59ym7.us-east-1.elasticbeanstalk.com/
+ ![link to the endpoint URL for a running elastic beanstalk deployment][running elastic beanstalk]
+ http://imagefilter-env.eba-bwp59ym7.us-east-1.elasticbeanstalk.com/)
 
 
 # Udagram Image Filtering Microservice
@@ -51,3 +51,6 @@ Prevent requests without valid authentication headers.
 
 Add your own domain name and have it point to the running services (try adding a subdomain name to point to the processing server)
 > !NOTE: Domain names are not included in AWS’ free tier and will incur a cost.
+
+
+[running elastic beanstalk]: 
