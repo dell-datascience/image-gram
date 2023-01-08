@@ -35,13 +35,13 @@ import fs from "fs";
         message: 'Error filtering image',
         originalError: error
       });
-    }
+    } 
   });
 
   // @TODO1 IMPLEMENT A RESTFUL ENDPOINT
   // GET /filteredimage?image_url={{UL}}
   // endpoint to filter an image from a public url.
-  // IT SHOULD
+  // IT SHOULD..
   //    1
   //    1. validate the image_url query
   //    2. call filterImageFromURL(image_url) to filter the image
