@@ -23,7 +23,7 @@ import fs from "fs";
         return res.status(400).send({ message: 'Image URL is required!' 
       });
       }
-      const filteredImagePath = await filterImageFromURL(image_url);
+      const filteredImagePath : string = await filterImageFromURL(image_url);
   
       res.status(200).sendFile(filteredImagePath, async (error) => {
         if (error) { res.status(400).send(error) 
@@ -37,8 +37,6 @@ import fs from "fs";
       });
     }
   });
-
- 
 
   // @TODO1 IMPLEMENT A RESTFUL ENDPOINT
   // GET /filteredimage?image_url={{UL}}
@@ -56,7 +54,6 @@ import fs from "fs";
 
   /**************************************************************************** */
   
- 
   //! END @TODO1
   
   // Root Endpoint
@@ -65,7 +62,6 @@ import fs from "fs";
     res.send("try GET /filteredimage?image_url={{}}")
   } );
   
-
   // Start the Server
   app.listen( port, () => {
       console.log( `server running http://localhost:${ port }` );
